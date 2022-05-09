@@ -6,11 +6,11 @@
 }
 
 .typing-demo {
-  width: 75ch;
-  animation: typing 4s steps(60), blink .5s step-end infinite alternate;
+  width: 80ch;
+  animation: typing 6s steps(100), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  border-right: 1px solid;
   font-family: monospace;
   font-size: 2em;
 }
@@ -29,20 +29,18 @@
 
 h3 { 
   text-align: center;
+  text-decoration: underline;
+  
 }
 
 a { 
   text-align: center;
+  position: relative;
+bottom: 125px;
 }
-
 h3 {
-  font: Montserrat
+  position:relative;
+  bottom: 50px;
 }
-
-h1 {
-  font: Montserrat
-}
-
-
 
 # ok maybe i didnt write all this code but why are you in here?
