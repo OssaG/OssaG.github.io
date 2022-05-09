@@ -30,6 +30,7 @@
 h3 { 
   text-align: center;
   text-decoration: underline;
+  color: white;
     position:relative;
   bottom: 200px;
   
@@ -37,6 +38,7 @@ h3 {
 
 a { 
   text-align: center;
+  color: white;
   position: relative;
 bottom: 320px;
 }
