@@ -12,13 +12,13 @@
   overflow: hidden;
   border-right: 1px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 20px;
   color: white;
 }
 
 @keyframes typing {
   from {
-    width: 0
+    width: 1px
   }
 }
     
@@ -48,4 +48,12 @@ a {
  text-decoration: bold;
  font-family: Arial, Helvetica, sans-serif;
   color: white;
+}
+
+html,body { min-height: 100vh; 
+  
+  * { 
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;
 }
