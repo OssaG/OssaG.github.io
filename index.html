@@ -1,30 +1,81 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-<link type="text/css" rel="stylesheet" href="styles.css" />
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oskar Vallin</title>
+    <style>
+        html{
+            background: linear-gradient(to bottom, #6f6f6f 0%, #0011c7 100%);   
+            height: 100%;
+            width: 100%;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .vem{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+            font-family: BatmanForeverAlternate;
+            font-size: 10px;
+            animation: bliliten 2s forwards;
+            position: relative;
+            display: inline-block;
+        }
+        h1{
+            position: relative;
+            top: 10%;
+            animation: texta 3s forwards;
+            width: 100%;
+            -webkit-user-select: none; /* Safari */        
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+            height: 100%;
+        }
+        .vem:hover{
+box-shadow:  20px 20px 67px #0000d9,
+             -20px -20px 67px #0000ff;
+             transition-duration: 500ms;
+             font-size: 11px;
+        }
+        @keyframes texta {
+            0%{opacity: 0;}
+            50%{opacity: 0;}
+            100%{opacity: 100%;}
+        }
+        @keyframes bliliten {
+            0%{width: 200px;
+            height: 200px
+            ;}
+            100%{}
+        }
+        .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+left: 48%;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
 </head>
-
 <body>
-  <div class="wrapper">
-      <div class="typing-demo">
-   Hello, welcome to 
-   my portfolio! 
-        My name is Oskar Vallin and im interested in IT!
-    </div>
-    <h3> socials </h3>
-    
-    
-     <a href="https://www.instagram.com/oskar_v_/" target="_blank">Instagram</a> 
-    <a href="https://github.com/OssaG" target="_blank">Github</a> 
-    <h3> or you can reach me on discord at Ossa#6220 </h6>
-    <h1> ha'de gött </h1>
-</div>
-                                                            
- 
-  
+    <div class="dropdown"><div class="vem"><h1>OSKAR <br> VALLIN</h1></div><div class="dropdown-content">
+        <p>Vem är jag?<br> Just nu läser jag IT på NTI Kronhus. <br>(El & Energi Programmet). <br><br>
+            Tycker om att syssla med HTML, CSS och JS.<br><br> Kontakta mig <br> <a href="mailto:Oskar.vallin@outlook.com">Oskar.vallin@outlook.com</a>
+            <br>
+            <a href="https://github.com/OssaG">https://github.com/OssaG</a>
+            <br>
+        </p>
+        </div></div>
 </body>
-  
 </html>
-
-<!-- tjena snokar du omkring här -->
