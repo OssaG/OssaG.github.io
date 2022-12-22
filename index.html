@@ -6,76 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oskar Vallin</title>
     <style>
-        html{
-            background: linear-gradient(to bottom, #6f6f6f 0%, #0011c7 100%);   
-            height: 100%;
-            width: 100%;    
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        html
+        {
+            background-color: black;
         }
-        .vem{
+        #box{
+            background-color: rgb(77, 0, 128);
             width: 100px;
             height: 100px;
-            background-color: white;
+            margin: auto;
+            margin-top: 50vh;
+            transition-duration: 500ms;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        #box:hover{
+            width: 400px;
+            height: 400px;
+            margin-top: 35vh;
+            transition-duration: 1000ms;
+            border-radius: 0px;
+        }
+        p{
+            font-family: Bebas Neue;
+            color: white;
             text-align: center;
-            font-family: BatmanForeverAlternate;
-            font-size: 10px;
-            animation: bliliten 2s forwards;
-            position: relative;
-            display: inline-block;
+            font-size: 20px;
+            margin-bottom: 15px;
         }
-        h1{
-            position: relative;
-            top: 10%;
-            animation: texta 3s forwards;
-            width: 100%;
-            -webkit-user-select: none; /* Safari */        
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* IE10+/Edge */
-            user-select: none; /* Standard */
-            height: 100%;
+        li, a{
+            font-family: Bebas Neue;
+            color: white;
         }
-        .vem:hover{
-box-shadow:  20px 20px 67px #0000d9,
-             -20px -20px 67px #0000ff;
-             transition-duration: 500ms;
-             font-size: 11px;
+        #Mus{
+            color: white;
+            animation: Blinka 10s forwards ;
         }
-        @keyframes texta {
-            0%{opacity: 0;}
-            50%{opacity: 0;}
-            100%{opacity: 100%;}
+        a:hover{
+            font-size: 30px;
         }
-        @keyframes bliliten {
-            0%{width: 200px;
-            height: 200px
-            ;}
-            100%{}
+        @keyframes Blinka {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 100    ;
+            }
+            100%{
+                opacity: 0;
+            }
         }
-        .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-left: 48%;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
     </style>
 </head>
 <body>
-    <div class="dropdown"><div class="vem"><h1>OSKAR <br> VALLIN</h1></div><div class="dropdown-content">
-        <p>Vem är jag?<br> Just nu läser jag IT på NTI Kronhus. <br>(El & Energi Programmet). <br><br>
-            Tycker om att syssla med HTML, CSS och JS.<br><br> Kontakta mig <br> <a href="mailto:Oskar.vallin@outlook.com">Oskar.vallin@outlook.com</a>
-            <br>
-            <a href="https://github.com/OssaG">https://github.com/OssaG</a>
-            <br>
-        </p>
-        </div></div>
+    <div id="box">
+        <p>Oskar Vallin</p>
+       <p id="Mus"2>Dra musen hit</p>
+        <li> Läser IT på NTI KRONHUS (El & Energi Programmet).  </li>
+        <p>Skills</p>
+        <li>HTML 3/5 <br>
+           <li> CSS 3/5</li> 
+           <li> JS 2/5</li> <br>
+        </li>
+<p>Kontakta mig</p>
+        <a href="mailto:Oskar.vallin@outlook.com"><p>Oskar.vallin@outlook.com</p> </a>
+        <a href="https://github.com/OssaG"><p>https://github.com/OssaG</p> </a>
+    </div>
 </body>
 </html>
